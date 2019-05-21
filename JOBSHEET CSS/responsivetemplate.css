@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+[class*="col-"]{
+  padding: 15px; float:left; width: 100%;
+}
+.header{
+  background: url("logo_white.png") #5e0001 no-repeat center;
+  background-size: 100px 100px;
+  height: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {wi}
+}

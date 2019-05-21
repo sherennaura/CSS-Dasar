@@ -1,0 +1,375 @@
+body{
+  padding: 0;
+}
+div.menu{
+
+  width: 100%;
+  background-color: #a30023;
+}
+
+div.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+div.menu ul li{
+  float: right;
+}
+div.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+  border-bottom: 2px solid #fff;
+}
+div.menu img{
+  width: 150px;
+  height: auto;
+}
+div.header{
+  width: 100%;
+  height: 500px;
+  background: url("hero.jpg") no-repeat center;
+  background-size:cover;
+  float: left;
+}
+div.gelap{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+  float: left;
+}
+div.header h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  top:150px;
+  left:420px;
+  opacity: 1;
+}
+
+div.header h1 label{
+  font-size: 30px;
+}
+
+div.header h1 span{
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  font-size: 10px;
+}
+
+div.header h1 img{
+  width: 100px;
+  height: auto;
+}
+
+div.about{
+  width: 100%;
+  height: 400px;
+}
+
+div.about .left{
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+
+div.about .left h1{
+  text-align: right;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-right: 5px solid red;
+  padding-right: 20px;
+}
+
+div.about .left p{
+  text-align: right;
+  color: grey;
+  font-size: 35px;
+}
+
+div.about .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+
+div.about .right img{
+  width: 500px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+div.layanan{
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-top: 150px;
+}
+
+div.layanan div.box{
+  width: 20%;
+  height: 350px;
+  margin: 30px;
+  float: left;
+}
+
+div.layanan div.box div.bunder{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.bunder span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.box .deskripsi{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div.penghargaan{
+  width: 100%;
+  height: 600px;
+  float: left;
+  background: url("parallax1.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+div.gelap{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to right, #000, #000, #000, transparent);
+}
+
+div.penghargaan div.left{
+  width: 50%;
+  margin-top: 200px;
+  position: absolute;
+  text-align: right;
+  color: #fff;
+  border-right: 10px solid red;
+  padding-right: 20px;
+  float: left;
+}
+
+div.penghargaan .left h1{
+  margin: 2px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+div.penghargaan .left h2{
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: grey;
+}
+
+div.penghargaan .left h3{
+  margin: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 10;
+}
+
+div.program{
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-left: 37%;
+}
+
+div.program div.ling{
+  width: 20%;
+  height: 350px;
+  margin: 30px;
+  float: center;
+  vertical-align: middle;
+}
+
+div.program div.ling div.karan{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.karan span{
+  margin: auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.ling .title{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+div.ling .keterangan{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+div.prodi img{
+  margin-left: 50px;
+}
+
+div.prestasi{
+  width: 50%;
+  height: 30px;
+}
+
+div.prestasi .left{
+  width: 70%;
+  height: 100%;
+  text-align: right;
+  float: left;
+}
+
+div.prestasi .left h2{
+  text-align: right;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+  border-right: 5px solid red;
+  padding-right: 20px;
+}
+
+div.prestasi .left p{
+  text-align: right;
+  color: grey;
+  font-size: 20px;
+}
+
+div.prestasi .right{
+  width: 100%;
+  height: 400px;
+  float: right;
+}
+
+div.prestasi .right img{
+  width: 500px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: 700px;
+}
+
+div.update{
+  width: 100%;
+  height: 300px;
+  float: left;
+  background: red;
+  position: relative;
+}
+
+div.update. centang{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: -50px;
+}
+
+div.update .centang span{
+  color: #fff;
+  margin: auto;
+  font-size: 40px;
+}
+
+div.update .left{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+div.update .left h1{
+  margin-top: 60px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+}
+
+div.update .left p{
+  color:#fff;
+  font-size:20px;
+}
+
+div.update .right{
+  width: 50%;
+  height: auto;
+  float:left;
+  margin-top: 60px;
+}
+
+div.update .right .bunder{
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 20px;
+  display: flex;
+  float: left;
+}
+div.update .right .bunder span{
+  font-size: 50px;
+  color: red;
+  margin: auto;
+}
+
+div.partner{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  float: left;
+}
